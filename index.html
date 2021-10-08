@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Hello, world!</title>
+    <title>La Costa</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" data-bs-offset="77">
        <!-- Header -->
       <header >
-        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
           <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="/img/logo.png" alt="Platzi logo">
@@ -29,16 +29,16 @@
                     <a class="nav-link" href="#main">El paseo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#speakers">Los parches</a>
+                    <a class="nav-link" href="#speackers">Los anfitriones</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#place-time">El lugar y la fecha</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#conviertete-en-orador">Conviértete en uno</a>
+                    <a class="nav-link" href="#JoinUs">Conviértete en uno</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra">Comprar tickets</a>
+                    <a class="nav-link text-platzi" href="https://www.google.com/flights?q=medellin+santa+marta&sxsrf=AOaemvJGVWmGS8q99BNYSjPx1FFxKDyOnw:1633709719169&source=lnms&impression_in_search=true&mode_promoted=true&tbm=flm&sa=X&ved=2ahUKEwjdhuj7mrvzAhUhQjABHcA4BFcQ_AUoAXoECAEQAw" data-toggle="modal" data-target="#modalCompra">Comprar tickets</a>
                   </li>
                 </ul>
               </div>
@@ -72,7 +72,7 @@
                                 <li>El Arbe</li>
                                 <li>El chule</li>
                             </ol>
-                            <button type="button" class="btn btn-comprar">Comprar Tiquete</button>
+                            <a href="https://www.google.com/flights?q=medellin+santa+marta&sxsrf=AOaemvJGVWmGS8q99BNYSjPx1FFxKDyOnw:1633709719169&source=lnms&impression_in_search=true&mode_promoted=true&tbm=flm&sa=X&ved=2ahUKEwjdhuj7mrvzAhUhQjABHcA4BFcQ_AUoAXoECAEQAw"><button type="button" class="btn btn-comprar">Comprar Tiquete</button></a>
 
                         </div>
 
@@ -139,7 +139,69 @@
         </div>
       </section>
       <!-- //Speackers -->
+      <!-- Fecha -->
+      <section id="place-time">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-6 px-0">
+              <img src="/img/Mendihuaca6.jpeg" alt="Imagen hotel">
+            </div>
+            <div class="col-12 col-lg-6 pt-4" >
+              <h2>Mendihuaca - Noviembre 2021</h2>
+              <p>un resort privilegiado con una ubicación a tan solo 5 minutos de una de las más hermosas e 
+                importantes reservas naturales de Colombia. El Parque Nacional Natural Tayrona.<br>
+                Podrás encontrar toda una mezcla ente lo natural y confort que es pasar una maravillosa estadía 
+                en las inmediaciones de nuestra imponente naturaleza.<br>
+                La cercanía a otros paradisiacos paisajes naturales te hará vernos como tu mejor opción.
+                Ya que contamos con una excelente ubicación para que tus trayectos sean más cómodos.
+              </p>
+              <a class="btn btn-outline-light" href="https://mendihuaca.com.co/">Conoce más</a>
+            </div>
+          </div>
+        </div>
 
+      </section>
+      <!-- //Fecha -->
+      <!-- JoinUs -->
+      <section id="JoinUs">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <small class="text-uppercase">Join </small>
+              <h2>Us</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <p>
+                Si quieres pasar una re-chimba, avísanos.<br>
+                ¿Que estas esperando?
+              </p>
+            </div>
+          </div>
+          <div class="row g-3 pb-4 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <div class="col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-8 offset-2">
+              <textarea name="text" class="form-control form-control-lg" placeholder="¿que quieres hacer?"></textarea>
+              <small class="form-text text-muted">LLeva la mejor actitud</small>
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="d-grid gap-2 col-8 offset-2 py-2">
+              <button type="button" class="btn btn-dark btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- //JoinUs -->
       <!-- Footer -->
       <footer id="footer" class="pb-4  pt-4">
           <div class="container">
@@ -181,3 +243,4 @@
     -->
   </body>
 </html>
+
