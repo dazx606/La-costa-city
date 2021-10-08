@@ -53,8 +53,11 @@
     max-width: 100%;
 }
 
-#place-time{
+#place-time{    
     background-color: #343a40;
     color:white;
+}
+main{
+    margin-top: 86.5px;
 }
 
